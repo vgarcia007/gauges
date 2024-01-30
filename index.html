@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gauge Chart</title>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Genos:400,700" />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="gauge.js"></script>
+    </head>
+    <body>
+        <main class="main">
+            <h1 class="main__title">Büro 3a (co2)</h1>
+            <div class="container">
+                <div id="gaugeDemo" class="gauge gauge-big gauge-green">
+                    <div class="gauge-arrow" data-percentage="0"
+                        style="transform: rotate(0deg);"></div>
+                </div>
+            </div>
+            <span class="gauge__value" id="gauge__value">0</span>
+        </main>
+    </body>
+</html>
